@@ -1,0 +1,36 @@
+the two first fibonacci numbers are 0 and 1,and the next Fibonacci nubers is always the sum of two previous numbers
+  example  :   0,1,1,2,3,5,8,13,21,...........
+
+code will be (fibonacci folder) :
+
+ approach1 (approach1.py) : create the 20 first fibonacci numbers 
+   *implementing using for loop..
+        ->start with two nums 0 and 1
+            * add these numbers to create a new fibonacci number.
+            * loop it for 18 times
+            *Print the new Fibonacci number
+            *Update the variables that hold the previous two fibonacci numbers
+
+
+  appraoch2:
+        printing the first 20 fibanocci numbers using recursive function
+        *first we declare count as "0"
+
+        *then we defined the fibanocci function  with two arguments called "num1","num2" to print numbers
+
+        * redeclaring count as global because we declared count outside function and if we declared count as count without global the function create a local variable with same name thats why we mentioned global before count...
+
+        *using if condition we run this process till 20 numbers
+
+        add the two numbers and store it in a variable here it is "new"
+        increment the num1 to num2 
+
+        and increment num2 to newly generated number ,and increment the count to move forward
+
+        call the fibanocci inside the function (recursive function == calling itself in the function ) to continue and print numbers ...
+
+  approach3:
+
+        -> using f(n)=f(n-1)+f(n-2) formulae we can generte the nth fibanocii number.....
+
+        

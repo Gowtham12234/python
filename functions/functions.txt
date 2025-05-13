@@ -1,0 +1,46 @@
+1.functions is a block of code to be executed when it is called 
+a function can be defined by def keyword 
+
+2.you can pass data as a parameter in aSRGUMENTS IN FUNCTION
+
+3.a function can return data as a result
+
+4.in python a function can be defined using "def"keywoard
+
+5.POSITONAL ARGUMENTS:
+    arguments based on their position (code in fuctions.py)
+
+
+6.DEFAULT ARGUMENTS :
+    *when no arguments are paassed in the function ,
+    
+    *it return the default value g9iven in code 
+    defining function
+
+
+7.Aribitary Arguments(args,*kwargs):
+    args(Multiple Positional Arguments)
+        ->*allows passing multiple positional arguments as a tuple..
+
+    *kwargs(Multiple keyword arguments)
+    -> *allows pasing multiple keyword arguments as a dictionary
+
+8.SCOPE OF A VARIABLE:(code in scope&lifetime.py)
+
+    * variables declared inside a function is called local variables and can be used in only that function
+    * global variables are  declared outside a function and can be accesed in anywhere in code 
+
+    we can declare global variable in local function -> it can be declared by using " global " keyword
+
+9.RECURSIVE FUNCTIONS:(recursive.py):
+
+
+    -> a function that call itself to solve a problem.it divides a problwm into sub problems of same type untill base condition gets true 
+
+    ->BASE CASE: condition that stops recursion.
+    RECURSIVE CASE:the functional part calls itself
+
+10. LAMBDA FUNCTIONS:
+    -> a laambda function is  a small ,anonymous function that can take any  number of arguments but has only one expression
+
+    refer to (lambda.py)

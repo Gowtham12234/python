@@ -1,0 +1,17 @@
+CLASSES/OBJECTS:
+
+        python is a oops language.
+        class-> A blueprint for creating objects.
+        object-> an instance of a class 
+
+instance and class variables:  (code in instnce vs class variable.py)
+
+    -> instance variables:
+        *defined inside the __init__ method.
+        *specified to each block
+        *accesible using self.variable_name within the class.
+
+    ->class variables:
+        *defined outside the __init__ and inside the class .
+        *shared across all objects 
+        *accessed using class name or instance 

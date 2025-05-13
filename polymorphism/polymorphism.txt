@@ -1,0 +1,22 @@
+Polymorphism means many forms 
+
+->polymorphism is used in class methods ,wher we can have multiple classes with same name 
+
+-> in (basic polymorphism.py_) there is code defiining a basic polymorphism that :
+    * it contains 3 classes named as "car","boat","plane"
+
+    *and they all have same method called 
+    "move"
+   
+    * using polymorphism we had done this ove acceseble to every class using for loop..
+
+
+-> in(inheritence polymorphism.py) there is code of implementing inheritence and we applied polymorphism over there
+
+        *there we created parent class called "vehicle " and we created car,boat,plane as child classes 
+
+        * and ther is common method called move 
+
+        *in car class we had directly inherit the properties from vehicle and in child class we given pass keyword to access them 
+
+        *in boat and plane they also inherited brand ,model but they overided means modified  the method called drive from vehicle class ....  

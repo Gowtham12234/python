@@ -1,0 +1,18 @@
+inheritence :
+
+    ->inheritence allows you to define a clss that inherits and properties from another class
+    
+   -> inheritence allows a class to detive properties and mwthods from another class ,promoting code reusability..
+
+   *parent class: is the main class that is defined and is also called as a base class
+   
+   *child class:is the sub class that uses the props of the base or parent class..
+
+ADD __init__()FUNCTION:
+    -> we have to add our __init__()function to skip "pass" keyword
+
+    ->called automatically whe  a new object is created 
+
+    ->when it is used in child class ,child class will not inherit the parent class
+
+    -> to inherit the parent __init__function class we have to call the parents __init__()function.

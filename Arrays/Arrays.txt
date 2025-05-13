@@ -1,0 +1,24 @@
+code in array.py
+
+
+*python does not have any built in supports for arrays,
+
+* "LISTS" are used as ARRAYS 
+
+*arrays are used to store multipkle vakues in one variables
+
+-> an array can hold many values under a sngkle name ,and you can access the values by referring indexes
+
+ADDING ELEMENTS :
+    ->we can add elements using append() methood in array 
+
+REMOVING ELEMENTS:
+    ->there are multiple ways to remove an element they are 
+        *pop()
+        *remove()
+
+there are many methods to operate array :
+        -> copy():used to copy the same array in another array
+        ->clear(): clears all elements in the array
+        -> insert ():used to insert the element in a specifed index
+        ->reverse()-> reverse the order of the LIST

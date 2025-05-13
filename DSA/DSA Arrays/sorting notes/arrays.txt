@@ -1,0 +1,13 @@
+** arrays => are the adta structres used to store multiple elements...
+
+** arrays are indexed and they have index for each element
+
+ALGORITHM: findding the lowest value in array
+    
+    * using array we gonna find the leat element ...
+    * go with values int he array by one by one ...
+    *intialize the first value of the array as the minimum value 
+
+    *and using if condition check if here any least value ..
+
+    *and update the min with that num..

@@ -1,0 +1,24 @@
+DATA STRUCTRES:
+
+        -> A data structre is a way to store data....
+        -> according to the data we have ,we'll organize in different ways..
+        ->helps us to manage large amounts of data efficiently 
+        -> data structres are main component for creating fast andd powerfull algorithms.
+        
+    
+    1.primitive data structres:
+                ->data structres provided by programing language to represent single values like int,float,char,bool...
+    
+    
+    2.abstract data structres:
+                ->built by primitive data types and provide more specialized operstions,loke arrays,stacks queues,trees,graphs....
+
+ALGORITHM:
+
+        ->An algorithm is a step by step instructions to solve a given problem
+
+Time complexity:  amount of time taken by an algorithm to run ,depending on the amount of data the algorithm is working on ...
+
+Space complexity:  amount of space taken by an algorithm to run ,depending on the amount of data the algorithm is working on ...
+
+brute force: a simpe and straight forward way that an algorithm can work by trying all possible solutions and then choosing the best ones..

@@ -1,0 +1,22 @@
+1.linear search :
+
+        it searches the given element snfd return the index if found else it returns -1
+
+implementation::
+
+        ** an array should be declared to search..
+        ** and a target to be given to find the element in the array..
+        **a llop that starts from start to end 
+        ** if statement for finding if there any value that matches the target if it matches returns the index of the element if not returns -1...
+
+2.Binary search:
+
+        an algorithm that searches the elements in the sorted array and return the index of the Value.
+
+        Check the value in the center of the array.
+
+        If the target value is lower, search the left half of the array. If the target value is higher, search the right half.
+
+        Continue step 1 and 2 for the new reduced part of the array until the target value is found or until the search area is empty.
+
+        If the value is found, return the target value index. If the target value is not found, return -1.

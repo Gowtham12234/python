@@ -1,0 +1,55 @@
+linked lists:
+
+    * a linked list contains data and a pointer that stores the address of the next node..
+
+    * and these type of item is called node ,and these nodes are stored in whereever the free space available.
+
+    * each node takes 4bytes 2 for data and 2 for address
+
+    * first node =head,last node = tail .
+
+ types of linked lists:
+
+            1.singly linked list
+            2.doubly linked list
+            3.circular linked list
+
+1.singly linked list: 
+        
+        it is simplest linked list takes the less memory 
+
+2.doubly linked list:
+
+       * it contains the pointers of two nodes ,one is previous and one is next node 
+
+        * it takes more memory than usaualy ,and it is good to move back and front in linked list
+
+
+3.circular linkedlist:
+
+        * it is similar to singly and doubly linkedlist and head is connected to tail of the linked list 
+
+operations :
+
+    basic operations in linked list are 
+
+        1.traversal
+        2.remove a node
+        3.insert a node 
+        4.Sort
+
+1.traversal of linked list:
+
+        * traversing means go through the linked list by following links from one node to another..
+
+        * this is done due to find a node ,and read or modify the node's data..
+
+2.deleting a node :
+
+        * before deleting the node ,we need to get the next pointer from previous node ..
+
+        *In the deleteSpecificNode function above, the return value is the new head of the linked list. So for example, if the node to be deleted is the first node, the new head returned will be the next node.
+
+3. insert a node :
+
+        to insert the node into list ,and then at this position 

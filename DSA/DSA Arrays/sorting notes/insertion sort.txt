@@ -1,0 +1,54 @@
+insertion sort : basically use two array as two parts 
+        one for the sorted items ,and another one for unsorted items
+
+it takes the one value at a time from the unsorted array and puts in the right place in the sorted array...  
+
+
+Step 1: We start with an unsorted array.
+
+[ 7, 12, 9, 11, 3]
+
+Step 2: We can consider the first value as the initial sorted part of the array. If it is just one value, it must be sorted, right?
+
+[ 7, 12, 9, 11, 3]
+
+Step 3: The next value 12 should now be moved into the correct position in the sorted part of the array. But 12 is higher than 7, so it is already in the correct position.
+
+[ 7, 12, 9, 11, 3]
+
+Step 4: Consider the next value 9.
+
+[ 7, 12, 9, 11, 3]
+Step 5: The value 9 must now be moved into the correct position inside the sorted part of the array, so we move 9 in between 7 and 12.
+
+[ 7, 9, 12, 11, 3]
+Step 6: The next value is 11.
+
+[ 7, 9, 12, > 11, 3]
+
+Step 7: We move it in between 9 and 12 in the sorted part of the array.
+
+[ 7, 9, 11, 12, 3]
+Step 8: The last value to insert into the correct position is 3.
+
+[ 7, 9, 11, 12, 3]
+Step 9: We insert 3 in front of all other values because it is the lowest value.
+
+[ 3,7, 9, 11, 12]
+Finally, the array is sorted
+
+
+code flow.....
+
+        ** create an unsorted array from user input..
+
+        ** store the length of array with another variable..
+
+        **start the outer loop and store index_value as i and store present value at index as arr[i]
+
+        ** now run the inner loop as (i-1,-1,-1) ,why because we know that insertion sort uses array as two parts so it decrements array and with step value as -1 and the loop stops at -1...
+
+        *if prev element is greater than present_value, it needs to move right side of the array..
+
+        **This shifts the larger element one step right.
+
